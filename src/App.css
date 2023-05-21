@@ -1,0 +1,746 @@
+@import url('//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#root {
+  max-width: 100vw;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+/* styles UserInput */
+
+.conteinerUserInput {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 3rem;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerLogo{
+  width: 100vw;
+}
+
+.logo{
+  width: 80%;
+}
+
+.conteinerUserInput--imgHeader {
+  width: 80%;
+}
+
+.conteinerUserInput--form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.conteinerUserInput--input{
+  padding: 0.3rem;
+  border-radius: 8px;
+}
+
+.conteinerUserInput--button{
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  background-color: #D93F3F;
+  color: white;
+}
+
+.conteinerUserInput--input{
+  padding: 0.3rem;
+  border-radius: 8px;
+}
+
+.conteinerUserInput--button{
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  background-color: #D93F3F;
+  color: white;
+}
+
+.conteinerUserInput--input {
+  padding: 0.3rem;
+  border-radius: 8px;
+}
+
+.conteinerUserInput--button {
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  background-color: #D93F3F;
+  color: white;
+}
+
+.hello{
+  color: #FE1936;
+}
+
+/************** inputUseR footer******************* */
+
+.footer{
+  width: 100vw;
+  height: 15vh;
+}
+
+.footer--Img1{
+  width: 100%;
+  height: 60%;
+  background-color: #DD1A1A;
+}
+
+.footer--Img2{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  background-color: black;
+}
+
+.footer--Img {
+  width: 13%;
+  margin-bottom: 2%;
+}
+
+/************************* styles header **************************/
+
+.header {
+  width: 100vw;
+  height: 20vh;
+  overflow-x: hidden;
+}
+
+.header--divMax {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 70%;
+  background-color: #DD1A1A;
+}
+
+.divMax--img {
+  width: 50%;
+  height: 70%;
+}
+
+.header--divMin {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 1rem;
+  width: 100%;
+  height: 20%;
+  background-color: black;
+}
+
+.divMin--radiusMax {
+  width: 2.3rem;
+  height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px black solid;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.radiusMax--radiusMin {
+  width: 75%;
+  height: 75%;
+  border: 5px black solid;
+  background-color: #212121;
+  border-radius: 50%;
+}
+
+
+/*************** styles Character *****************************/
+
+.conteinerCharacter {
+  width: 99vw;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.conteinerCharacter--tittle {
+  margin-bottom: 0.4rem;
+  margin-top: 0.4rem;
+  color: #D93F3F;
+  font-size: 9px;
+}
+span{
+  color: black;
+}
+
+/****************** search inputs *******************/
+
+.conteinerCharacter--inputs {
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.searchPokemon {
+  color: #D93F3F;
+  font-weight: bold;
+  width: 35%;
+  border-radius: 5px;
+  padding: 0.3rem;
+  border: 0.2px solid lightslategray;
+  cursor: pointer;
+}
+
+.searchPokemon:hover {
+  color: white;
+  background-color:#D93F3F;
+}
+
+.searchPokemon:hover::placeholder{
+  color: white;
+}
+
+.searchPokemon::placeholder {
+  color: #D93F3F;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.searchPokemon::placeholder:hover {
+  color: white;
+}
+
+.buttonSearchPokemon {
+  background-color: #D93F3F;
+  color: white;
+  padding: 0.3rem;
+  margin-left: 0.1rem;
+  margin-right: 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.select {
+  width: 45%;
+  padding: 0.3rem;
+  border-radius: 5px;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #D93F3F;
+  cursor: pointer;
+}
+
+.select:hover {
+  background-color: #D93F3F;
+  color: white;
+}
+
+.conteinerCharacter--Card {
+  width: 99%;
+  gap: 0.8rem;
+  overflow-x : hidden;
+  margin-top: 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 70%;
+}
+
+/* ********************** paginated ***********************/
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0rem;
+}
+
+.buttons>button {
+  width: 3rem;
+  background-color: #D93F3F;
+  color: white;
+  padding: 0.2rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 2px 4px 2px 1px #682d2d
+}
+
+button:hover {
+  background-color: #da2c2c;
+}
+
+.buttons--input {
+  padding: 0.3rem;
+  border-radius: 5px;
+  width: 2.5rem;
+  background-color: #D93F3F;
+  color: white;
+  text-align: center;
+}
+
+.buttons--input::placeholder {
+  color: white;
+}
+
+/********************** styles characters card *********************/
+
+.containerButtonExit{
+  width: 100vw;
+  margin-top: 0.5rem;
+  display: flex;
+  padding-left: 2rem;
+}
+
+.buttonExit{
+  width: 2.5rem;
+  height: 1.4rem;
+  border-radius: 20%;
+  background-color: rgb(236, 40, 40);
+}
+
+.characterCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-x : hidden;
+  padding-bottom: 0.8rem;
+  width: 95%;
+  height: 95%;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.characterCard:hover {
+  transform: scale(1.1)
+}
+
+.characterCard--header {
+  width: 100%;
+  height: 30%;
+  border-radius: 6px 6px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  background-color: palevioletred;
+}
+
+.characterCard--img {
+  width: 60%;
+}
+
+.characterCard--info {
+  display: grid;
+  row-gap: 0.4rem;
+  grid-template-rows: 0.2fr 0.2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info--h3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.listType {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.listItems {
+  display: inline-block;
+  margin: 0.2rem;
+}
+
+.info--b {
+  display: block;
+}
+
+
+/* ******************** style characterDetail *******************/
+
+.characterDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.characterDetail--info {
+  margin-top: 4rem;
+  width: 80%;
+  height: 80%;
+  padding-bottom: 1rem;
+  box-shadow: 1px 10px 10px 6px #d1cdcd;
+  margin-bottom: 2rem;
+}
+
+.info--header {
+  display: flex;
+  max-height: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--img {
+  width: 80%;
+  max-width: 185px;
+  margin-bottom: 2rem;
+}
+
+.info--sectionDiv {
+  padding: 0rem 2rem;
+  margin-top: 0.8rem;
+}
+
+.info--id {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  box-shadow: 1px 1px 1px 1px #d1cdcd;
+}
+
+.info--name {
+  height: 1rem;
+}
+
+.info--name>h2 {
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  bottom: 1rem;
+}
+
+.info--weight,
+.info--height {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.weight--info, .height--info {
+  display: block;
+}
+
+.info--typeAbilities {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 0.4rem;
+}
+
+.typeAbilities--info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+/***** characterDetail Bars ****/
+
+.stats--tittle {
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  bottom: 0.9rem;
+}
+
+.stats--stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats--bar {
+  width: 100%;
+  height: 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  background-color: rgb(182, 193, 204);
+}
+
+.bar--porc {
+  height: 0.9rem;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+/* ******************* media query 400px *********************/
+
+@media screen and (min-width: 400px) {
+
+/* *********userinput ***************/
+
+h1{
+  font-size: 1.5rem;
+}
+
+.containerLogo{
+  width: 100vw;
+}
+
+.logo{
+  width: 70%;
+}
+
+.conteinerUserInput{
+  padding-top: 5rem;
+}
+
+  .conteinerUserInput--imgHeader {
+    width: 50%;
+  }
+
+  .conteinerUserInput--form {
+
+    gap: 2rem;
+  }
+  
+  
+  /************ styles header *************/
+
+  .header {
+    height: 25vh;
+  }
+
+  /* footer******************************* */
+
+  .footer{
+    width: 100vw;
+    height: 18vh;
+  }
+
+  .footer--Img {
+    width: 12%;
+    max-width: 50px;
+    margin-bottom: 0.6rem;
+  }
+
+  /*************** styles Character ******************/
+
+  .conteinerCharacter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  .conteinerCharacter--tittle {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 0.8rem;
+    font-size: 1rem;
+  }
+
+  /*************** inputs characters*************************** */
+
+  .conteinerCharacter--inputs {
+    margin-bottom: 1rem;
+  }
+
+  .searchPokemon {
+    width: 30%;
+    padding: 0.2rem;
+  }
+
+  .searchPokemon::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .select {
+    width: 40%;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+  }
+
+  .buttonSearchPokemon {
+    width: 2.5rem;
+    margin-right: 1.2rem;
+  }
+
+
+  /* *************card *******************/
+
+  .conteinerCharacter--Card {
+    width: 90%;
+    margin: 0rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .characterCard:hover {
+    transform: scale(1.05);
+  }
+
+}
+
+/************************** media query 800px  *********************/
+
+@media screen and (min-width: 800px) {
+
+/******** userInput **********************/
+
+.logo{
+  width: 40%;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+.conteinerUserInput{
+  padding-top: 1rem;
+}
+
+.conteinerUserInput--form{
+  gap: 1rem;
+}
+
+.footer{
+  width: 100vw;
+  height: 20vh;
+}
+
+  .footer--Img {
+    margin-bottom: 0.65rem;
+    max-width: 60px;
+  }
+
+  /* *************** inputs search **************/
+
+  .searchPokemon {
+    width: 25%;
+    padding: 0.3rem;
+  }
+
+  .select {
+    width: 30%;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+  }
+
+  .buttonSearchPokemon {
+    width: 2.5rem;
+    margin-right: 2rem;
+  }
+
+  /* ************** conteiner card **************/
+  .conteinerCharacter--Card {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+/* ******************** style characterDetail *******************/
+
+.containerButtonExit{
+  margin-top: 2rem;
+  padding-left: 5rem;
+}
+
+.buttonExit{
+  cursor: pointer;
+  width: 3.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 20%;
+  background-color: rgb(236, 40, 40);
+}
+
+.characterDetail--info {
+  margin-top: 7rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.info--header {
+  max-height: 6rem;
+}
+
+.header--img {
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 4rem;
+}
+
+.info--sectionDiv {
+  padding: 0rem 6rem;
+  margin-top: 1.2rem;
+  font-size: 1.8rem;
+}
+
+.info--id {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.info--name {
+  height: 4rem;
+}
+
+.info--name>h2 {
+  bottom: 2rem;
+}
+
+.info--weight, .info--height {
+  margin: 1.5rem 3rem;
+}
+
+.info--typeAbilities {
+  margin-bottom: 0.6rem;
+}
+
+.typeAbilities--info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.stats--tittle {
+  bottom: 1.6rem;
+}
+
+.stats--stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats--bar {
+  width: 100%;
+  height: 1rem;
+  border-radius: 5px;
+  background-color: rgb(182, 193, 204);
+}
+
+.bar--porc {
+  height: 0.9rem;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+}
